@@ -6,14 +6,14 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   margin-top: 20px;
   -webkit-box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
 }
 
 .food-logo {
@@ -29,11 +29,11 @@
 }
 .nav-container {
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   max-width: 1000px;
 }
 .a-class:hover {
@@ -80,19 +80,20 @@
   height: 600px;
   background-color: rgb(139, 0, 0);
   border-radius: 15px;
+  margin-left: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 .h4-elements {
   font-size: 30px;
@@ -108,27 +109,28 @@
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 .right-box {
   width: 700px;
   height: 600px;
   background-color: rgb(139, 0, 0);
   border-radius: 15px;
+  margin-left: 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 .h6-el {
   font-size: 30px;
@@ -185,7 +187,7 @@
   background-color: #fff;
   border-radius: 8px;
   -webkit-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   text-align: center;
 }
@@ -236,10 +238,10 @@ body {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   padding: 20px;
   gap: 20px;
 }
@@ -251,7 +253,7 @@ body {
   border-radius: 10px;
   width: 200px;
   -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-          box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   padding: 15px;
 }
 
@@ -308,7 +310,7 @@ body {
   background-color: #fff;
   border-radius: 15px;
   -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-          box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
 }
 
 .contact-container h2 {
@@ -347,7 +349,7 @@ body {
   border-color: #667eea;
   outline: none;
   -webkit-box-shadow: 0 0 8px rgba(102, 126, 234, 0.5);
-          box-shadow: 0 0 8px rgba(102, 126, 234, 0.5);
+  box-shadow: 0 0 8px rgba(102, 126, 234, 0.5);
 }
 
 .form-group textarea {
@@ -358,8 +360,8 @@ body {
 .submit-btn {
   width: 100%;
   padding: 15px;
-  background: -webkit-gradient(linear, left top, right top, from(#667eea), to(#764ba2));
   background: -o-linear-gradient(left, #667eea, #764ba2);
+  background: -webkit-gradient(linear, left top, right top, from(#667eea), to(#764ba2));
   background: linear-gradient(to right, #667eea, #764ba2);
   color: #fff;
   border: none;
@@ -374,11 +376,11 @@ body {
 }
 
 .submit-btn:hover {
-  background: -webkit-gradient(linear, left top, right top, from(#764ba2), to(#667eea));
   background: -o-linear-gradient(left, #764ba2, #667eea);
+  background: -webkit-gradient(linear, left top, right top, from(#764ba2), to(#667eea));
   background: linear-gradient(to right, #764ba2, #667eea);
   -webkit-box-shadow: 0 5px 15px rgba(118, 75, 162, 0.3);
-          box-shadow: 0 5px 15px rgba(118, 75, 162, 0.3);
+  box-shadow: 0 5px 15px rgba(118, 75, 162, 0.3);
 }
 .nav-container {
   display: inline;
@@ -396,14 +398,14 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   border-top: 1px solid #e0e0e0;
   background-color: #f0f0f0;
   width: 100%;
@@ -421,8 +423,8 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 
 .burger-bar {
@@ -431,14 +433,14 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
   width: 30px;
   cursor: pointer;
   margin: 20px;
@@ -468,8 +470,8 @@ body {
   .div-container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
   .nav-container {
     display: inline;
@@ -481,8 +483,8 @@ body {
   .other-div-container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
   }
 }
 @media (max-width: 730px) {
@@ -508,11 +510,11 @@ body {
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
   .burger-jpg {
     width: 100px;
