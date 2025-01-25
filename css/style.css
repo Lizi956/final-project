@@ -141,6 +141,9 @@
   font-style: normal;
   margin-top: 20px;
 }
+.fa-light {
+  background-color: red;
+}
 .img-box {
   width: 100%;
 }
@@ -361,7 +364,13 @@ body {
   width: 100%;
   padding: 15px;
   background: -o-linear-gradient(left, #667eea, #764ba2);
-  background: -webkit-gradient(linear, left top, right top, from(#667eea), to(#764ba2));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#667eea),
+    to(#764ba2)
+  );
   background: linear-gradient(to right, #667eea, #764ba2);
   color: #fff;
   border: none;
@@ -377,7 +386,13 @@ body {
 
 .submit-btn:hover {
   background: -o-linear-gradient(left, #764ba2, #667eea);
-  background: -webkit-gradient(linear, left top, right top, from(#764ba2), to(#667eea));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(#764ba2),
+    to(#667eea)
+  );
   background: linear-gradient(to right, #764ba2, #667eea);
   -webkit-box-shadow: 0 5px 15px rgba(118, 75, 162, 0.3);
   box-shadow: 0 5px 15px rgba(118, 75, 162, 0.3);
